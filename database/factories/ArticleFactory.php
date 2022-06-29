@@ -17,6 +17,7 @@ class ArticleFactory extends Factory
         return [
             'title' => $this->faker->title,
             'short_description' => $this->faker->text,
+            'thumbnail' => 'https://via.placeholder.com/300/09f/fff.png'
         ];
     }
 }
